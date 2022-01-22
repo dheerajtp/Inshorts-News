@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .main-div-nav{
+        @apply
+        flex flex-row space-x-2 flex-wrap justify-center
+    }
+    .badge-single{
+        @apply
+        text-xs inline-block py-2 px-3 leading-none text-center font-bold bg-gray-800 text-white rounded
+    }
+}
